@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+}
+
+#logo {
+    /* Box-model */
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    /* Positioning */
+    margin-left: 70px;
+    font-family: Georgia, Times, “Times New Roman”, serif;
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    /* Visual */
+    background: #4AAAA5;
+  }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="asset/bootstrap.min.css" media = "screen">
+    <link rel="stylesheet" href="asset/style.css" media = "screen">
+    <title>Document</title>
+
+</head>
+<body>
+    <nav class="navbar navbar-default"> 
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "navbar-header">
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <!-- Add more statiment here to make the navbar responsive to screen size change -->
+                    </button>
+                    <div class = "col-xs-9">
+                        <a class="navbar-brand" href="Index.html" id="logo">Latitude</a> 
+                    </div>
+            </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class = "nav navbar-nav navbar-right" >
+                        <li class = "dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">               
+                                <li><a href="max_temperature.html">Max Temperature</a></li>
+                                <li><a href="humidity.html">Humidity</a></li>
+                                <li><a href="cloudiness.html">Cloudiness</a></li>
+                                <li><a href="wind_speed.html">Wind Speed</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="comparison.html">Comparison</a></li>      <!-- Need to point # to the corresponding .html file -->
+                        <li><a href="data.html">Data</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class = "container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <h1 class = "header"><strong>Summary: Latitude vs. X</strong></h1>
+                    <hr>
+                    <img src = "asset/Fig1.png" style = "width:300px;height:300px;float:left" alt="Figure 1">
+                    <p>The purpose if this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                    <p>After assemble the dataset, we used Matplotlib to plot various aspects of the weather vs Latitude. Factors we looked at included: temperature, cloudiness, wind speed, humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanatations and descriptions of any trends and correlations witnessed.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                        <div class="panel-body">                                    
+                            <h2>Visualizations</h2>
+                            <hr>
+                            <div class="row" >
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="max_temperature.html"><img class = "img img-responsive" src="asset/Fig1.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="humidity.html"><img class = "img img-responsive" src="asset/Fig2.png" style="width:100%" alt=""></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="cloudiness.html"><img class = "img img-responsive" src="asset/Fig3.png" style="width:100%" alt=""></a></div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6"><a href="wind_speed.html"><img class = "img img-responsive" src="asset/Fig4.png" style="width:100%" alt=""></a></div>
+                            </div>
+                                
+                        </div>
+                </div>     
+            </div>    
+    </div>
+</body>
+</html>
