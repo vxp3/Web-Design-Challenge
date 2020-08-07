@@ -19,3 +19,5 @@ Data is more powerful when we share it with others! Let's take what we've learne
 5. Push the above changes to GitHub or GitLab.
 
 6. Deploy to GitHub pages. 
+
+## Latitude - Latitude Analysis Dashboard with Attitude
