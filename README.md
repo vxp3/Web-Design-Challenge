@@ -21,3 +21,5 @@ Data is more powerful when we share it with others! Let's take what we've learne
 6. Deploy to GitHub pages. 
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
+
+For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv).
